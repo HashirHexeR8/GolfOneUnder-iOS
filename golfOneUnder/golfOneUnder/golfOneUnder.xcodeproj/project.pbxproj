@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E2E800F2938427700299E39 /* iOSDFULibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2E800A2938426800299E39 /* iOSDFULibrary.framework */; };
+		6E2E80102938427700299E39 /* iOSDFULibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2E800A2938426800299E39 /* iOSDFULibrary.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E2E80112938427900299E39 /* nutble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2E80092938426800299E39 /* nutble.framework */; };
+		6E2E80122938427900299E39 /* nutble.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2E80092938426800299E39 /* nutble.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E2E80132938427B00299E39 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2E800B2938426800299E39 /* ZIPFoundation.framework */; };
+		6E2E80142938427B00299E39 /* ZIPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2E800B2938426800299E39 /* ZIPFoundation.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6E2E80152938428900299E39 /* iOSDFULibrary.framework in Resources */ = {isa = PBXBuildFile; fileRef = 6E2E800A2938426800299E39 /* iOSDFULibrary.framework */; };
+		6E2E80162938428900299E39 /* nutble.framework in Resources */ = {isa = PBXBuildFile; fileRef = 6E2E80092938426800299E39 /* nutble.framework */; };
+		6E2E80172938428900299E39 /* ZIPFoundation.framework in Resources */ = {isa = PBXBuildFile; fileRef = 6E2E800B2938426800299E39 /* ZIPFoundation.framework */; };
+		6E5AAC1F2937EC2C00D1A5E1 /* DeviceDisconnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5AAC1E2937EC2C00D1A5E1 /* DeviceDisconnectedViewController.swift */; };
+		6E5AAC212937EF8B00D1A5E1 /* OneFinderUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5AAC202937EF8B00D1A5E1 /* OneFinderUserDefaults.swift */; };
+		6E5AAC232937F2B800D1A5E1 /* DeviceInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5AAC222937F2B800D1A5E1 /* DeviceInfoDTO.swift */; };
+		6E8C0DB02917C47C009727D4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6E8C0DAF2917C47B009727D4 /* Podfile */; };
+		6E8C0DB42917C62A009727D4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8C0DB32917C62A009727D4 /* HomeViewController.swift */; };
+		6EA72B2E2928D15C00AADF7F /* DeviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA72B2C2928D15C00AADF7F /* DeviceTableViewCell.swift */; };
+		6EA72B2F2928D15C00AADF7F /* DeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA72B2D2928D15C00AADF7F /* DeviceTableViewCell.xib */; };
+		6EA72B312928D2CB00AADF7F /* DiscoverDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA72B302928D2CB00AADF7F /* DiscoverDeviceViewController.swift */; };
+		6EA72B332928D60500AADF7F /* RangeFinderDeviceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA72B322928D60500AADF7F /* RangeFinderDeviceService.swift */; };
+		6EA81E672936745F009D6434 /* ProgressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA81E662936745F009D6434 /* ProgressLoader.swift */; };
+		6EA81E692936923E009D6434 /* DefaultClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA81E682936923E009D6434 /* DefaultClassExtensions.swift */; };
+		6EA81E6B2936927E009D6434 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA81E6A2936927D009D6434 /* BaseViewController.swift */; };
+		6EAFF172292C1E9400F70C7A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAFF171292C1E9400F70C7A /* NetworkManager.swift */; };
+		6EAFF175292C1F7000F70C7A /* WebUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAFF174292C1F7000F70C7A /* WebUrls.swift */; };
+		6EAFF177292C205000F70C7A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAFF176292C205000F70C7A /* UserService.swift */; };
+		6EAFF17A292C210800F70C7A /* DataParsingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAFF179292C210800F70C7A /* DataParsingModels.swift */; };
+		6EAFF17C292C213B00F70C7A /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAFF17B292C213B00F70C7A /* Enums.swift */; };
+		6EAFF17E292C252D00F70C7A /* UserDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAFF17D292C252D00F70C7A /* UserDTO.swift */; };
+		6EB0166529087E6D00F81EF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0166429087E6D00F81EF9 /* AppDelegate.swift */; };
+		6EB0166729087E6D00F81EF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0166629087E6D00F81EF9 /* SceneDelegate.swift */; };
+		6EB0166929087E6D00F81EF9 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB0166829087E6D00F81EF9 /* SigninViewController.swift */; };
+		6EB0166C29087E6D00F81EF9 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB0166A29087E6D00F81EF9 /* Onboarding.storyboard */; };
+		6EB0166E29087E6E00F81EF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB0166D29087E6E00F81EF9 /* Assets.xcassets */; };
+		6EB0167129087E6E00F81EF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB0166F29087E6E00F81EF9 /* LaunchScreen.storyboard */; };
+		6ED3EF82292D69B400A52521 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED3EF81292D69B400A52521 /* SignUpViewController.swift */; };
+		6ED6C3752917AD5900AC442B /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ED6C3742917AD5900AC442B /* Home.storyboard */; };
+		6EEC38582937D35400CBBD82 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEC38572937D35400CBBD82 /* Constants.swift */; };
+		6EEC385B2937DB0E00CBBD82 /* DeviceConnectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EEC385A2937DB0E00CBBD82 /* DeviceConnectedViewController.swift */; };
+		6EF610A82937F97F00A0E0AD /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF610A72937F97F00A0E0AD /* NotificationViewController.swift */; };
+		6EF610AA2937FA7900A0E0AD /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF610A92937FA7900A0E0AD /* NotificationTableViewCell.swift */; };
+		6EF610AC29380BAE00A0E0AD /* SettingsPresenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF610AB29380BAE00A0E0AD /* SettingsPresenterViewController.swift */; };
+		6EF610B02938127B00A0E0AD /* CircularStd-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EF610AD2938121400A0E0AD /* CircularStd-Book.ttf */; };
+		6EF610B12938127B00A0E0AD /* CircularStd-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EF610AE2938121400A0E0AD /* CircularStd-Medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E1369EF29383F8E008B5E76 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E2E80122938427900299E39 /* nutble.framework in Embed Frameworks */,
+				6E2E80102938427700299E39 /* iOSDFULibrary.framework in Embed Frameworks */,
+				6E2E80142938427B00299E39 /* ZIPFoundation.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E2E80092938426800299E39 /* nutble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nutble.framework; sourceTree = "<group>"; };
+		6E2E800A2938426800299E39 /* iOSDFULibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iOSDFULibrary.framework; sourceTree = "<group>"; };
+		6E2E800B2938426800299E39 /* ZIPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZIPFoundation.framework; sourceTree = "<group>"; };
+		6E5AAC1E2937EC2C00D1A5E1 /* DeviceDisconnectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDisconnectedViewController.swift; sourceTree = "<group>"; };
+		6E5AAC202937EF8B00D1A5E1 /* OneFinderUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneFinderUserDefaults.swift; sourceTree = "<group>"; };
+		6E5AAC222937F2B800D1A5E1 /* DeviceInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoDTO.swift; sourceTree = "<group>"; };
+		6E8C0DAF2917C47B009727D4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6E8C0DB32917C62A009727D4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6EA72B2C2928D15C00AADF7F /* DeviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceTableViewCell.swift; sourceTree = "<group>"; };
+		6EA72B2D2928D15C00AADF7F /* DeviceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceTableViewCell.xib; sourceTree = "<group>"; };
+		6EA72B302928D2CB00AADF7F /* DiscoverDeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverDeviceViewController.swift; sourceTree = "<group>"; };
+		6EA72B322928D60500AADF7F /* RangeFinderDeviceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeFinderDeviceService.swift; sourceTree = "<group>"; };
+		6EA81E662936745F009D6434 /* ProgressLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoader.swift; sourceTree = "<group>"; };
+		6EA81E682936923E009D6434 /* DefaultClassExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultClassExtensions.swift; sourceTree = "<group>"; };
+		6EA81E6A2936927D009D6434 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6EAFF171292C1E9400F70C7A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6EAFF174292C1F7000F70C7A /* WebUrls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebUrls.swift; sourceTree = "<group>"; };
+		6EAFF176292C205000F70C7A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		6EAFF179292C210800F70C7A /* DataParsingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParsingModels.swift; sourceTree = "<group>"; };
+		6EAFF17B292C213B00F70C7A /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		6EAFF17D292C252D00F70C7A /* UserDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDTO.swift; sourceTree = "<group>"; };
+		6EB0166129087E6D00F81EF9 /* golfOneUnder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = golfOneUnder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB0166429087E6D00F81EF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EB0166629087E6D00F81EF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EB0166829087E6D00F81EF9 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		6EB0166B29087E6D00F81EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Onboarding.storyboard; sourceTree = "<group>"; };
+		6EB0166D29087E6E00F81EF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EB0167029087E6E00F81EF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EB0167229087E6E00F81EF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ED3EF81292D69B400A52521 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6ED6C3742917AD5900AC442B /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		6EEC38572937D35400CBBD82 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6EEC385A2937DB0E00CBBD82 /* DeviceConnectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceConnectedViewController.swift; sourceTree = "<group>"; };
+		6EF610A72937F97F00A0E0AD /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		6EF610A92937FA7900A0E0AD /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		6EF610AB29380BAE00A0E0AD /* SettingsPresenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenterViewController.swift; sourceTree = "<group>"; };
+		6EF610AD2938121400A0E0AD /* CircularStd-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.ttf"; sourceTree = "<group>"; };
+		6EF610AE2938121400A0E0AD /* CircularStd-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.ttf"; sourceTree = "<group>"; };
+		7406440BEE29317C2D71F37D /* Pods-golfOneUnder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-golfOneUnder.debug.xcconfig"; path = "Target Support Files/Pods-golfOneUnder/Pods-golfOneUnder.debug.xcconfig"; sourceTree = "<group>"; };
+		C4FD224E48DD7915332A5DA0 /* Pods-golfOneUnder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-golfOneUnder.release.xcconfig"; path = "Target Support Files/Pods-golfOneUnder/Pods-golfOneUnder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB0165E29087E6D00F81EF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2E80112938427900299E39 /* nutble.framework in Frameworks */,
+				6E2E800F2938427700299E39 /* iOSDFULibrary.framework in Frameworks */,
+				6E2E80132938427B00299E39 /* ZIPFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E1369E529383F8C008B5E76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EA72B2B2928D12D00AADF7F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6EA72B2C2928D15C00AADF7F /* DeviceTableViewCell.swift */,
+				6EA72B2D2928D15C00AADF7F /* DeviceTableViewCell.xib */,
+				6EF610A92937FA7900A0E0AD /* NotificationTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6EA81E6529367451009D6434 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6EA81E662936745F009D6434 /* ProgressLoader.swift */,
+				6EA81E682936923E009D6434 /* DefaultClassExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6EAFF170292C1E7500F70C7A /* NetworkServices */ = {
+			isa = PBXGroup;
+			children = (
+				6EAFF171292C1E9400F70C7A /* NetworkManager.swift */,
+				6EAFF176292C205000F70C7A /* UserService.swift */,
+			);
+			path = NetworkServices;
+			sourceTree = "<group>";
+		};
+		6EAFF173292C1F5E00F70C7A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6EAFF174292C1F7000F70C7A /* WebUrls.swift */,
+				6EAFF17B292C213B00F70C7A /* Enums.swift */,
+				6EEC38572937D35400CBBD82 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6EAFF178292C20F700F70C7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EAFF179292C210800F70C7A /* DataParsingModels.swift */,
+				6EAFF17D292C252D00F70C7A /* UserDTO.swift */,
+				6E5AAC222937F2B800D1A5E1 /* DeviceInfoDTO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EB0165829087E6D00F81EF9 = {
+			isa = PBXGroup;
+			children = (
+				6E2E800A2938426800299E39 /* iOSDFULibrary.framework */,
+				6E2E80092938426800299E39 /* nutble.framework */,
+				6E2E800B2938426800299E39 /* ZIPFoundation.framework */,
+				6E5AAC202937EF8B00D1A5E1 /* OneFinderUserDefaults.swift */,
+				6E8C0DAF2917C47B009727D4 /* Podfile */,
+				6EB0166D29087E6E00F81EF9 /* Assets.xcassets */,
+				6EB0166429087E6D00F81EF9 /* AppDelegate.swift */,
+				6EB0166629087E6D00F81EF9 /* SceneDelegate.swift */,
+				6EA72B322928D60500AADF7F /* RangeFinderDeviceService.swift */,
+				6EA81E6A2936927D009D6434 /* BaseViewController.swift */,
+				6EAFF170292C1E7500F70C7A /* NetworkServices */,
+				6EA81E6529367451009D6434 /* Utils */,
+				6EAFF178292C20F700F70C7A /* Model */,
+				6EAFF173292C1F5E00F70C7A /* Constants */,
+				6EC877BC2911AD8F0065F18F /* Onboarding */,
+				6ED6C3732917AC5F00AC442B /* Home */,
+				6EB0166F29087E6E00F81EF9 /* LaunchScreen.storyboard */,
+				6EB0167229087E6E00F81EF9 /* Info.plist */,
+				6EB0166229087E6D00F81EF9 /* Products */,
+				EF1A070B9B1002FEC42D38CF /* Pods */,
+				6EF610AF2938121B00A0E0AD /* Fonts */,
+				6E1369E529383F8C008B5E76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB0166229087E6D00F81EF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB0166129087E6D00F81EF9 /* golfOneUnder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EC877BC2911AD8F0065F18F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				6ED3EF7E292D693500A52521 /* ViewControllers */,
+				6EB0166A29087E6D00F81EF9 /* Onboarding.storyboard */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		6ED3EF7E292D693500A52521 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6EB0166829087E6D00F81EF9 /* SigninViewController.swift */,
+				6ED3EF81292D69B400A52521 /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6ED6C3732917AC5F00AC442B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6EEC38592937DAF200CBBD82 /* ViewControllers */,
+				6EA72B2B2928D12D00AADF7F /* Cells */,
+				6ED6C3742917AD5900AC442B /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6EEC38592937DAF200CBBD82 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E8C0DB32917C62A009727D4 /* HomeViewController.swift */,
+				6EA72B302928D2CB00AADF7F /* DiscoverDeviceViewController.swift */,
+				6EEC385A2937DB0E00CBBD82 /* DeviceConnectedViewController.swift */,
+				6E5AAC1E2937EC2C00D1A5E1 /* DeviceDisconnectedViewController.swift */,
+				6EF610A72937F97F00A0E0AD /* NotificationViewController.swift */,
+				6EF610AB29380BAE00A0E0AD /* SettingsPresenterViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6EF610AF2938121B00A0E0AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6EF610AD2938121400A0E0AD /* CircularStd-Book.ttf */,
+				6EF610AE2938121400A0E0AD /* CircularStd-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EF1A070B9B1002FEC42D38CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7406440BEE29317C2D71F37D /* Pods-golfOneUnder.debug.xcconfig */,
+				C4FD224E48DD7915332A5DA0 /* Pods-golfOneUnder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB0166029087E6D00F81EF9 /* golfOneUnder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB0167529087E6E00F81EF9 /* Build configuration list for PBXNativeTarget "golfOneUnder" */;
+			buildPhases = (
+				57475AAFA687EF1024124C4E /* [CP] Check Pods Manifest.lock */,
+				6EB0165D29087E6D00F81EF9 /* Sources */,
+				6EB0165E29087E6D00F81EF9 /* Frameworks */,
+				6EB0165F29087E6D00F81EF9 /* Resources */,
+				57A7217B248704CBAF765D0E /* [CP] Copy Pods Resources */,
+				6E1369EF29383F8E008B5E76 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = golfOneUnder;
+			productName = golfOneUnder;
+			productReference = 6EB0166129087E6D00F81EF9 /* golfOneUnder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB0165929087E6D00F81EF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					6EB0166029087E6D00F81EF9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 6EB0165C29087E6D00F81EF9 /* Build configuration list for PBXProject "golfOneUnder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB0165829087E6D00F81EF9;
+			productRefGroup = 6EB0166229087E6D00F81EF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB0166029087E6D00F81EF9 /* golfOneUnder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB0165F29087E6D00F81EF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2E80152938428900299E39 /* iOSDFULibrary.framework in Resources */,
+				6E2E80162938428900299E39 /* nutble.framework in Resources */,
+				6E2E80172938428900299E39 /* ZIPFoundation.framework in Resources */,
+				6EF610B02938127B00A0E0AD /* CircularStd-Book.ttf in Resources */,
+				6EF610B12938127B00A0E0AD /* CircularStd-Medium.ttf in Resources */,
+				6E8C0DB02917C47C009727D4 /* Podfile in Resources */,
+				6EB0167129087E6E00F81EF9 /* LaunchScreen.storyboard in Resources */,
+				6EB0166E29087E6E00F81EF9 /* Assets.xcassets in Resources */,
+				6EB0166C29087E6D00F81EF9 /* Onboarding.storyboard in Resources */,
+				6ED6C3752917AD5900AC442B /* Home.storyboard in Resources */,
+				6EA72B2F2928D15C00AADF7F /* DeviceTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57475AAFA687EF1024124C4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-golfOneUnder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57A7217B248704CBAF765D0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-golfOneUnder/Pods-golfOneUnder-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-golfOneUnder/Pods-golfOneUnder-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-golfOneUnder/Pods-golfOneUnder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB0165D29087E6D00F81EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA72B2E2928D15C00AADF7F /* DeviceTableViewCell.swift in Sources */,
+				6EA72B312928D2CB00AADF7F /* DiscoverDeviceViewController.swift in Sources */,
+				6EA81E692936923E009D6434 /* DefaultClassExtensions.swift in Sources */,
+				6EB0166929087E6D00F81EF9 /* SigninViewController.swift in Sources */,
+				6EB0166529087E6D00F81EF9 /* AppDelegate.swift in Sources */,
+				6EAFF172292C1E9400F70C7A /* NetworkManager.swift in Sources */,
+				6EF610A82937F97F00A0E0AD /* NotificationViewController.swift in Sources */,
+				6EEC385B2937DB0E00CBBD82 /* DeviceConnectedViewController.swift in Sources */,
+				6EAFF17E292C252D00F70C7A /* UserDTO.swift in Sources */,
+				6EA81E6B2936927E009D6434 /* BaseViewController.swift in Sources */,
+				6EA81E672936745F009D6434 /* ProgressLoader.swift in Sources */,
+				6EAFF175292C1F7000F70C7A /* WebUrls.swift in Sources */,
+				6EF610AA2937FA7900A0E0AD /* NotificationTableViewCell.swift in Sources */,
+				6EAFF177292C205000F70C7A /* UserService.swift in Sources */,
+				6ED3EF82292D69B400A52521 /* SignUpViewController.swift in Sources */,
+				6EAFF17A292C210800F70C7A /* DataParsingModels.swift in Sources */,
+				6EB0166729087E6D00F81EF9 /* SceneDelegate.swift in Sources */,
+				6EA72B332928D60500AADF7F /* RangeFinderDeviceService.swift in Sources */,
+				6E5AAC212937EF8B00D1A5E1 /* OneFinderUserDefaults.swift in Sources */,
+				6EF610AC29380BAE00A0E0AD /* SettingsPresenterViewController.swift in Sources */,
+				6EAFF17C292C213B00F70C7A /* Enums.swift in Sources */,
+				6E8C0DB42917C62A009727D4 /* HomeViewController.swift in Sources */,
+				6EEC38582937D35400CBBD82 /* Constants.swift in Sources */,
+				6E5AAC1F2937EC2C00D1A5E1 /* DeviceDisconnectedViewController.swift in Sources */,
+				6E5AAC232937F2B800D1A5E1 /* DeviceInfoDTO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EB0166A29087E6D00F81EF9 /* Onboarding.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB0166B29087E6D00F81EF9 /* Base */,
+			);
+			name = Onboarding.storyboard;
+			sourceTree = "<group>";
+		};
+		6EB0166F29087E6E00F81EF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB0167029087E6E00F81EF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB0167329087E6E00F81EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses bluetooth to connect to hardware devices compatible with our app.";
+				INFOPLIST_KEY_UILaunchStoryboardName = Onboarding.Storyboard;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EB0167429087E6E00F81EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses bluetooth to connect to hardware devices compatible with our app.";
+				INFOPLIST_KEY_UILaunchStoryboardName = Onboarding.Storyboard;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB0167629087E6E00F81EF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7406440BEE29317C2D71F37D /* Pods-golfOneUnder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97KF2LZHQ2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/debug",
+					"$(PROJECT_DIR)/release",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Golf One Under";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We connect to bluetooth hardware in background to locatre the devices.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We use location in background to track the location of our device.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to keep the location of the devices.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.golfApp.golfOneUnder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6EB0167729087E6E00F81EF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4FD224E48DD7915332A5DA0 /* Pods-golfOneUnder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 97KF2LZHQ2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/debug",
+					"$(PROJECT_DIR)/release",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Golf One Under";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We connect to bluetooth hardware in background to locatre the devices.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We use location in background to track the location of our device.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We will use your location to keep the location of the devices.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.golfApp.golfOneUnder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB0165C29087E6D00F81EF9 /* Build configuration list for PBXProject "golfOneUnder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB0167329087E6E00F81EF9 /* Debug */,
+				6EB0167429087E6E00F81EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB0167529087E6E00F81EF9 /* Build configuration list for PBXNativeTarget "golfOneUnder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB0167629087E6E00F81EF9 /* Debug */,
+				6EB0167729087E6E00F81EF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EB0165929087E6D00F81EF9 /* Project object */;
+}
